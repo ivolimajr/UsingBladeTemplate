@@ -1,0 +1,51 @@
+﻿@page "/pessoas/lista"
+@using BlazorWebApp.Shared.Models
+
+<h3>Listar</h3>
+
+@if (pessoas == null)
+{
+    <text> Carregando... </text>
+} else{
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Peso</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in pessoas)
+        {
+        <tr>
+            <th scope="row">@item.Id</th>
+            <td>@item.Nome</td>
+            <td>@item.Peso</td>
+        </tr>
+                }
+        </tbody>
+</table> 
+}
+
+@code {      
+
+    List<Pessoa> pessoas;
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPessoas();
+    }
+
+    async Task LoadPessoas()
+    {
+        await Task.Delay(2000);
+
+        pessoas = new List<Pessoa>{
+           new Pessoa { Id = 1, Nome = "Ivo", Peso = 50},
+           new Pessoa { Id = 2, Nome = "Lima", Peso = 70},
+           new Pessoa { Id = 3, Nome = "Paulo", Peso = 100},
+           new Pessoa { Id = 4, Nome = "Junior", Peso = 40},
+        };
+    }
+}

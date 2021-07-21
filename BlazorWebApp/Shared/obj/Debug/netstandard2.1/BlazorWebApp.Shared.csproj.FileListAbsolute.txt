@@ -1,0 +1,9 @@
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\netstandard2.1\BlazorWebApp.Shared.deps.json
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\netstandard2.1\BlazorWebApp.Shared.dll
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\bin\Debug\netstandard2.1\BlazorWebApp.Shared.pdb
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.csproj.AssemblyReference.cache
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.AssemblyInfoInputs.cache
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.AssemblyInfo.cs
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.dll
+C:\Users\ivoli\source\repos\BlazorWebApp\BlazorWebApp\Shared\obj\Debug\netstandard2.1\BlazorWebApp.Shared.pdb
